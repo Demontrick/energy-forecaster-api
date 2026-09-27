@@ -1,7 +1,7 @@
 # ⚡ Building-Aware Energy Load Forecasting API
 
 > A production-grade, asynchronous machine learning API engineered to forecast electrical energy consumption (kWh) using real-world multi-building constraints.
-![CI Status](https://github.com/Demontrick/energy-forecaster-api/actions/workflows/ci.yml/badge.svg)
+[![Docker Build](https://github.com/Demontrick/energy-forecaster-api/actions/workflows/docker-build.yml/badge.svg)](https://github.com/Demontrick/energy-forecaster-api/actions/workflows/docker-build.yml)
 ---
 
 ## 🚀 Overview
