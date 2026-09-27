@@ -13,9 +13,8 @@ RUN apt-get update && apt-get install -y --no-install-recommends \
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy application source code and data directory structure
+# Copy application source code (includes app/models/energy_model.pkl)
 COPY ./app ./app
-COPY ./data ./data
 
 # Expose FastAPI default port
 EXPOSE 8000
