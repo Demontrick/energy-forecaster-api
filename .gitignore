@@ -1,0 +1,26 @@
+# Python / Virtual Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+
+# Testing & Coverage
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Local Data & Model Artifacts (Ignore raw files, keep unified training data and model)
+data/*
+!data/energy_training_data.csv
+
+app/models/*
+!app/models/energy_model.pkl
+
+# IDE & OS Specific
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
